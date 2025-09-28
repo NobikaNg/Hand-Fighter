@@ -117,7 +117,11 @@ class Enemy:
 
 background_image = pygame.image.load("./img/OpenMenuBg.jpg")
 background_image = pygame.transform.scale(background_image, (config.screen_width, config.screen_height))
-preparation_image = pygame.image.load("./img/PreparationSceneBG.png")
-preparation_image = pygame.transform.scale(preparation_image, (config.screen_width, config.screen_height))
+# preparation_image = pygame.image.load("./img/PreparationSceneBG.png")
+# preparation_image = pygame.transform.scale(preparation_image, (config.screen_width, config.screen_height))
 level1_image = pygame.image.load("./img/Level1BG.jpg")
 level1_image = pygame.transform.scale(level1_image, (350, config.screen_height))
+
+def load_preparation_image():
+    image = pygame.image.load("./img/PreparationSceneBG.png")
+    return pygame.transform.scale(image, (config.screen_width, config.screen_height))
