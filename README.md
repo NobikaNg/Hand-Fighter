@@ -1,10 +1,10 @@
-The Self-Design Group Project of CENG4480
-
 # Hand Fighter
 
 This is a simple reaction game built with `Pygame`.
 
 The game prompts the user to show some gesture within a limited time. If the user show the correct gesture within the time limit, they pass the level and the final score is displayed at the end.
+
+The original game is developed in Raspberry Pi, the game need to be refactor in windows.
 
 ## Install required library
 
